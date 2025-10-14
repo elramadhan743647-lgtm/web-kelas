@@ -258,3 +258,27 @@ html {
   width: auto;
   object-fit: contain;
 }
+/* Responsif untuk tampilan HP */
+@media (max-width: 768px) {
+  .gallery img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+
+  .list li {
+    min-width: 90px;
+    font-size: 0.9rem;
+  }
+
+  header h1 {
+    font-size: 1.8rem;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+}
+
