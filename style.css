@@ -305,11 +305,11 @@ html {
     font-size: 1.8rem;
   }
 
-  /* Menu navigasi tetap sejajar (horizontal) */
+  /* Menu navigasi rapih di tengah */
   .nav-links {
-    flex-wrap: nowrap; /* jangan dilipat */
-    justify-content: center; /* tetap di tengah */
-    gap: 15px; /* jarak antar menu */
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
   }
 }
 
