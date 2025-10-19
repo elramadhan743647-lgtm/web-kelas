@@ -181,6 +181,10 @@ body.dark-mode .list li {
   gap: 15px;
   padding: 20px;
   justify-items: center;
+
+    /* Tambahan penting agar tidak tertutup */
+  position: relative;
+  z-index: 10;
 }
 
 .gallery img {
@@ -305,10 +309,7 @@ html {
     gap: 10px;
   }
 }
-/* Pastikan galeri tampil di atas header atau elemen latar lainnya */
-.gallery {
-  position: relative;
-  z-index: 10;
-}
+
+
 
 
