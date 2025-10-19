@@ -309,6 +309,21 @@ html {
     gap: 10px;
   }
 }
+/* --- Fix gambar tidak muncul di HP --- */
+.stars {
+  pointer-events: none; /* Biar layer bintang nggak nutup elemen lain */
+}
+
+.gallery,
+.content,
+footer,
+nav,
+header {
+  position: relative;
+  z-index: 10; /* Pastikan elemen utama di atas layer bintang */
+}
+
+
 
 
 
