@@ -305,3 +305,10 @@ html {
     gap: 10px;
   }
 }
+/* Pastikan galeri tampil di atas header atau elemen latar lainnya */
+.gallery {
+  position: relative;
+  z-index: 10;
+}
+
+
