@@ -203,20 +203,6 @@ body.dark-mode .list li {
   }
 }
 
-/* Semua HP (≤ 768px) → 1 kolom */
-/*@media (max-width: 768px) {
-  .gallery {
-    grid-template-columns: 1fr;
-    gap: 12px;
-    padding: 10px;
-  }
-
-  .gallery img {
-    border-radius: 8px;
-    width: 100%;
-  }
-}
-
 /* Footer */
 footer {
   background: rgba(0, 0, 0, 0.7);
@@ -284,7 +270,7 @@ html {
   width: auto;
   object-fit: contain;
 }
-/* Responsif untuk tampilan HP */
+/* ✅ Responsif untuk tampilan HP */
 @media (max-width: 768px) {
   /* Galeri jadi 1 kolom */
   .gallery {
@@ -292,6 +278,13 @@ html {
     gap: 12px;
     padding: 10px;
     margin-bottom: 20px;
+  }
+
+  .gallery img {
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+    display: block;
   }
 
   /* List anggota lebih kecil */
@@ -305,11 +298,10 @@ html {
     font-size: 1.8rem;
   }
 
-  /* Menu navigasi rapih di tengah */
+  /* Menu navigasi rapi di tengah */
   .nav-links {
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
   }
 }
-
